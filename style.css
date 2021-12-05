@@ -2,12 +2,12 @@
 
 @font-face {
     font-family:"VolvoBroadPro";
-    src: url(/fonts/VolvoBroadPro.otf);
+    src: url(./fonts/VolvoBroadPro.otf);
 }
 
 @font-face {
     font-family:"VolvoNovum";
-    src: url(/fonts/VolvoNovum-Regular.otf);
+    src: url(./fonts/VolvoNovum-Regular.otf);
 }
 
 /* UNIVERSAL */
