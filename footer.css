@@ -1,0 +1,26 @@
+.footer-nav {
+    margin-top: 80px;
+    padding: 2.5rem 0;
+    background-color: #fafafa;
+}
+
+.footer-nav-info, .copyright {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin: 0 25px;
+    font-family: "VolvoNovum", arial black;
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+    color: rgb(95, 95, 95);
+}
+
+.copyright {
+    text-align: center;
+    padding: 1rem 0 0 0;
+    font-family: "VolvoNovum", arial black;
+    font-size: 0.75rem;
+    color: rgb(151, 151, 151);
+}

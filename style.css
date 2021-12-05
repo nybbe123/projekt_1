@@ -1,0 +1,136 @@
+/* FONTS */
+
+@font-face {
+    font-family:"VolvoBroadPro";
+    src: url(/fonts/VolvoBroadPro.otf);
+}
+
+@font-face {
+    font-family:"VolvoNovum";
+    src: url(/fonts/VolvoNovum-Regular.otf);
+}
+
+/* UNIVERSAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 480px) { /* Avser skärmar större än 480px */
+
+    .nav-bar{
+        height: 4rem;
+    }
+
+    .nav-menu > li > a {
+        display: unset;
+        padding-right: 1.8rem;
+    }
+
+    .whitespace-info {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .image-gallery-bottom-1 {
+        width: 57%;
+    }
+    
+    .image-gallery-bottom-2 {
+        width: 43%;
+    }
+
+  }
+
+  @media screen and (min-width: 740px) { /* Avser skärmar större än 740px */
+
+    .main-content {
+        height: 37rem; 
+    }
+
+    .main-content > h1 {
+        top: 13%;
+        font-size: 4.5rem;
+        font-weight: 100;
+        line-height: 4.5rem;
+        letter-spacing: 0.02em;
+        min-width: 40rem;
+    }
+
+  }
+
+  @media screen and (min-width: 1020px) { /* Avser skärmar större än 1020px */
+    
+    .main-content > a {
+        top: 40%;
+        color: #fafafa;
+    }
+
+    .whitespace-info {
+        max-width: 600px;
+        font-size: 2rem;
+    }
+
+    .image-gallery {
+        margin-top: 300px;
+    }
+
+  }
+
+  @media screen and (min-width: 1600px) { /* Avser skärmar större än 1600px */
+
+    .main-content {
+        height: 37rem; 
+    }
+    
+    .main-content > h1 {
+        top: 8%;
+    }
+
+    .main-content > a {
+        top: 36%;
+    }
+
+  }
+
+  @media screen and (min-width: 1800px) { /* Avser skärmar större än 1800px */
+    
+    .main-content {
+        height: 42rem; 
+    }
+
+    .main-content > h1 {
+        top: 6%;
+    }
+
+    .main-content > a {
+        top: 31%;
+    }
+
+  }
+
+  @media screen and (min-width: 2100px) { /* Avser skärmar större än 2100px */
+    
+    .main-content {
+        height: 47rem; 
+    }
+
+    .main-content > h1 {
+        top: 5%;
+    }
+
+    .main-content > a {
+        top: 27%;
+    }
+
+  }

@@ -1,0 +1,125 @@
+.main-content {
+    position: relative;
+    height: 30rem; 
+    background-image: url(https://www.volvocars.com/images/v/se/v/-/media/project/contentplatform/data/media/my22/homepage/hero/xc60-recharge-promotional-hero-16x9.jpg?h=1440&amp;iar=0&amp;w=2560);
+    background-size: cover;
+    background-position: 55%;
+    background-repeat: no-repeat;
+    z-index: -100;
+    top: 3rem;
+}
+
+.main-content > h1 {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "VolvoBroadPro", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: #fafafa;
+    font-weight: 100;
+    min-width: 340px;
+    max-width: 600px;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    letter-spacing: 0.02em;
+}
+
+.main-content > a {
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    font-family: "VolvoNovum", Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: #1c6bba;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+}
+
+.whitespace-info {
+    position: relative;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    max-width: 535px;
+    font-family: "VolvoNovum", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.1666666666666667;
+    letter-spacing: 0.02em;
+}
+
+.whitespace-text-1 {
+    color: #141414;
+}
+
+.whitespace-text-2 {
+    color: #707070;
+}
+
+.image-gallery {
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery-top-1 > img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    max-width: 78rem;
+    height: auto;
+    padding: 0 30px;
+    margin-bottom: 5px;
+}
+
+.image-gallery-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 78rem;
+    gap: 10px;
+}
+
+.image-gallery-bottom-1 > img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.image-gallery-bottom-2 > img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+.read-more{
+    font-family: "VolvoNovum", arial black;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:rgb(28, 107, 186);
+    background-color: white;
+    border: solid 1px rgb(28, 107, 186);
+    border-radius: 4%;
+    padding: 12px 24px;
+    margin-top: 2rem;
+    line-height: 22px;
+}
